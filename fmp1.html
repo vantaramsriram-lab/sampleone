@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: hsl(0, 0%, 8%);
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      min-height: 100vh;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    div.box {
+      background-color: hsl(0, 0%, 23%);
+      width: 350px;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .profile {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .location {
+      color: hsl(75, 94%, 57%);
+      font-weight: bold;
+      margin-bottom: 25px;
+    }
+
+    .bio {
+      color: #ddd;
+      margin-bottom: 25px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .links a {
+      text-decoration: none;
+      color: white;
+      background-color: rgb(79, 79, 79);
+      padding: 15px;
+      border-radius: 12px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .links a:hover {
+      background-color: hsl(75, 94%, 57%);
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <img src="/projects/avatar-jessica.jpeg" alt="profile pic" class="profile">
+    <h2>Jessica Randall</h2>
+    <p class="location">London,United Kindom</p>
+    <p class="bio">Front-end developer and avid reader</p>
+    <div class="links">
+      <a href="#" class="github">Github</a>
+      <a href="#" class="Frontend Mentor">Frontend Mentor</a>
+      <a href="#" class="Linkedin">Linkedin</a>
+      <a href="#" class="Twitter">Twitter</a>
+      <a href="#" class="Instagram">Instagram</a>
+    </div>
+  </div>
+</body>
+
+</html>
